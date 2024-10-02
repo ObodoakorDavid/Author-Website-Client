@@ -7,8 +7,8 @@ export default function Contact() {
         <div className=" flex flex-col gap-6 md:w-1/2">
           <p className=" text-3xl font-semibold">Get In Touch</p>
           <p className=" font-semibold">
-            We would love to hear from you,Concerning any issues whatsoever for
-            reviews or complants,kindly send us a message.
+            We would love to hear from you, Concerning any issues whatsoever for
+            reviews or complants, kindly send us a message.
           </p>
           <ul className="mt-6">
             <li className=" font-semibold">titioye@gmail.com</li>
