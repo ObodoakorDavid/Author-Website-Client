@@ -64,7 +64,7 @@ export default function Books() {
                   href="#"
                   className=" mt-4 cursor-pointer block font-semibold bg-[#956B73] border-2 border-[#956B73] text-white rounded-lg py-2 w-fit px-6 hover:bg-white hover:text-[#956B73] transition-all ease-in-out "
                 >
-                  BUY NOW
+                  Pre-Order
                 </a>
               </div>
             </div>
