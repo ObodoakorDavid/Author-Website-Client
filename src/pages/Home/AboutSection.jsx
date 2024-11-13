@@ -7,7 +7,7 @@ export default function AboutSection() {
     <div className=" flex flex-col gap-8 items-start md:items-center md:flex-row w-full py-20 px-4">
       <div className="md:w-2/3 flex flex-col gap-4">
         <h2 className=" text-3xl font-semibold">About</h2>
-        <p className=" font-semibold">TITILOPE OYEWOLE</p>
+        <p className=" font-semibold">G.T.DÍPÈ</p>
         <p>
           I began writing as a way to shed light on social issues and explore
           how the law can sometimes negatively impact lives. While my characters
