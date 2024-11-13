@@ -11,8 +11,10 @@ export default function Contact() {
           </p>
 
           <ul className="mt-6">
-            <li className=" font-semibold">titioye@gmail.com</li>
-            <li className=" font-semibold">01-20-2345542</li>
+            <li className=" font-semibold">
+              <a href="mailto:Grace@gtdipe.com">Email: Grace@gtdipe.com</a>
+            </li>
+            {/* <li className=" font-semibold">01-20-2345542</li> */}
           </ul>
         </div>
 
