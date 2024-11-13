@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../../assets/images/set-designer-work-indoors.png";
+import image from "../../assets/images/G.T DÍPÈ (2).png";
 
 export default function FullAboutSection() {
   return (
@@ -9,12 +9,15 @@ export default function FullAboutSection() {
         <p className=" font-semibold">TITILOPE OYEWOLE</p>
 
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit modi
-          tempora rem dicta quia non culpa, molestias aspernatur exercitationem
-          repellat, doloremque provident expedita vel vero necessitatibus
-          dignissimos ducimus, id autem.
+          I began writing as a way to shed light on social issues and explore
+          how the law can sometimes negatively impact lives. While my characters
+          are fictional, they are deeply rooted in the real experiences of many
+          individuals. As an advocate, I aim to use storytelling not only to
+          entertain, but to provoke thought and inspire change. Through my work,
+          I hope to contribute to a world that is safer, more just, and more
+          inclusive for minorities.
         </p>
-        <p>
+        {/* <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit modi
           tempora rem dicta quia non culpa, molestias aspernatur exercitatione.
         </p>
@@ -35,7 +38,7 @@ export default function FullAboutSection() {
           tempora rem dicta quia non culpa, molestias aspernatur exercitationem
           repellat, doloremque provident expedita vel vero necessitatibus
           dignissimos ducimus, id autem.
-        </p>
+        </p> */}
       </div>
       <div className="md:w-1/3">
         <img className="w-full" src={image} alt="" />

@@ -6,10 +6,10 @@ export default function Contact() {
       <div className="flex flex-col gap-4 md:flex-row">
         <div className=" flex flex-col gap-6 md:w-1/2">
           <p className=" text-3xl font-semibold">Get In Touch</p>
-          <p className=" font-semibold">
-            We would love to hear from you, Concerning any issues whatsoever for
-            reviews or complants, kindly send us a message.
+          <p className=" font-semibold w-full">
+            You can send me a message or ask me a question using this form.
           </p>
+
           <ul className="mt-6">
             <li className=" font-semibold">titioye@gmail.com</li>
             <li className=" font-semibold">01-20-2345542</li>

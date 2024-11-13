@@ -1,5 +1,5 @@
 import React from "react";
-import heroImage from "../../assets/images/image 7.png";
+import heroImage from "../../assets/images/G.T DÍPÈ (2).png";
 
 export default function HeroSection() {
   return (
