@@ -9,13 +9,6 @@ export default function Contact() {
           <p className=" font-semibold w-full">
             You can send me a message or ask me a question using this form.
           </p>
-
-          <ul className="mt-6">
-            <li className=" font-semibold">
-              <a href="mailto:Grace@gtdipe.com">Email: Grace@gtdipe.com</a>
-            </li>
-            {/* <li className=" font-semibold">01-20-2345542</li> */}
-          </ul>
         </div>
 
         <form action="" className="flex flex-col gap-4 md:w-1/2">

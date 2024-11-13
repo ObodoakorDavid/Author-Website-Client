@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <div className="bg-[#956B73] text-white items-center rounded-tl-3xl px-4 py-12 flex flex-col gap-8 md:items-start md:flex-row md:gap-8">
       <p className="text-3xl font-semibold w-full md:w-1/3 text-center md:text-start">
-        TITILOPE OYEWOLE
+        G.T.DÍPÈ
       </p>
 
       <ul className="flex flex-col gap-2 md:w-1/3 text-center">
@@ -23,7 +23,7 @@ export default function Footer() {
             to="/contact"
             className="text-xl font-semibold hover:text-gray-200"
           >
-            Contact
+            Contact Me
           </Link>
         </li>
         <li>

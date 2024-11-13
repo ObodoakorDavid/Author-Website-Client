@@ -29,7 +29,7 @@ export default function Navbar() {
       ref={navbarRef}
       className="flex justify-between p-4 items-center border-b border-gray-400"
     >
-      <p className="text-3xl font-semibold">TITILOPE OYEWOLE</p>
+      <p className="text-3xl font-semibold">G.T.DÍPÈ</p>
 
       <div className="md:hidden">
         <button onClick={toggleMenu}>
@@ -50,7 +50,7 @@ export default function Navbar() {
         </li>
         <li className="relative group">
           <Link to="/about" className="font-semibold">
-            About Titi
+            About G.T
           </Link>
           <span className="absolute bottom-0 left-1/2 w-0 h-0.5 bg-black transition-all duration-300 ease-in-out transform -translate-x-1/2 group-hover:w-full"></span>
         </li>
@@ -84,7 +84,7 @@ export default function Navbar() {
             </li>
             <li>
               <Link to="/about" className="font-semibold" onClick={toggleMenu}>
-                About Titi
+                About G.T
               </Link>
             </li>
             <li>
@@ -98,7 +98,7 @@ export default function Navbar() {
                 className="font-semibold"
                 onClick={toggleMenu}
               >
-                Contact Us
+                Contact Me
               </Link>
             </li>
           </motion.ul>

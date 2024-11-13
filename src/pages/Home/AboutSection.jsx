@@ -22,7 +22,7 @@ export default function AboutSection() {
           to="/about"
           className=" font-semibold bg-[#956B73] border-2 border-[#956B73] text-white rounded-lg py-3 w-fit px-6 hover:bg-white hover:text-[#956B73] transition-all ease-in-out"
         >
-          MORE ABOUT TITILOPE
+          MORE ABOUT G.T
         </Link>
       </div>
       <div className="md:w-1/3">
