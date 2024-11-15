@@ -10,6 +10,10 @@ export default function Books() {
         "Teniade, the charismatic son of an elite Nigerian family, leaves the country to escape its oppressive attitude. He returns to his birth country, England, where he meets Stefan, a Swedish graduate student burdened by his own past. Drawn together by an undeniable connection, they seek solace in each other's arms, finding fleeting escape from old traumas, self-doubt, and present threats. But love, as they soon discover, doesn't come without its costs. When faced with the ghosts of their pasts and the fears they’ve kept hidden for so long, will love be the force that heals them, or will their bond be broken beyond repair?",
       image: Book1,
       date: "February 14, 2025",
+      paperBack: "https://selar.co/75139n",
+      hardCover: "https://selar.co/z5p735",
+      eBook:
+        "https://www.amazon.com/dp/B0DN6MFX36?ref=cm_sw_r_ffobk_cp_ud_dp_6V6EEFM79M3CBMZ8KFRF&ref_=cm_sw_r_ffobk_cp_ud_dp_6V6EEFM79M3CBMZ8KFRF&social_share=cm_sw_r_ffobk_cp_ud_dp_6V6EEFM79M3CBMZ8KFRF&peakEvent=1&dealEvent=0&skipTwisterOG=1&bestFormat=true",
     },
     // {
     //   title: "A Good Day To Try Again",
@@ -60,12 +64,26 @@ export default function Books() {
                 <p className=" font-bold">{book.title}</p>
                 <p className="">{book.summary}</p>
                 {/* <p className="text-gray-500">{formatPrice(book.price)}</p> */}
-                <a
-                  href="#"
-                  className=" mt-4 cursor-pointer block font-semibold bg-[#956B73] border-2 border-[#956B73] text-white rounded-lg py-2 w-fit px-6 hover:bg-white hover:text-[#956B73] transition-all ease-in-out "
-                >
-                  Pre-Order
-                </a>
+                <div className="flex gap-4">
+                  <a
+                    href={book.paperBack}
+                    className=" mt-4 cursor-pointer block font-semibold bg-[#956B73] border-2 border-[#956B73] text-white rounded-lg py-2 w-fit px-6 hover:bg-white hover:text-[#956B73] transition-all ease-in-out "
+                  >
+                    Pre-Order - (Paperback)
+                  </a>
+                  <a
+                    href={book.hardCover}
+                    className=" mt-4 cursor-pointer block font-semibold bg-[#956B73] border-2 border-[#956B73] text-white rounded-lg py-2 w-fit px-6 hover:bg-white hover:text-[#956B73] transition-all ease-in-out "
+                  >
+                    Pre-Order - (Hardcover)
+                  </a>
+                  <a
+                    href={book.eBook}
+                    className=" mt-4 cursor-pointer block font-semibold bg-[#956B73] border-2 border-[#956B73] text-white rounded-lg py-2 w-fit px-6 hover:bg-white hover:text-[#956B73] transition-all ease-in-out "
+                  >
+                    Pre-Order - (Ebook)
+                  </a>
+                </div>
               </div>
             </div>
           );
