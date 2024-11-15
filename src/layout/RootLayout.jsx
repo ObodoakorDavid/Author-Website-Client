@@ -24,15 +24,22 @@ export default function RootLayout() {
             transform: showIntro ? "translateY(0)" : "translateY(-100%)",
           }}
         >
-          <div className="flex flex-col gap-8 items-center">
+          <div className="flex flex-col gap-8 items-center px-6">
             <div className="text-center text-white">
-              <h1 className="text-4xl font-bold mb-4">
-                G.T. DÍPÈ: Writing love stories that hold both the beauty and
-                the bravery of real life.
-              </h1>
-              <p className="text-lg mb-6">
-                For hearts that find strength in both love and reality…
-              </p>
+              <div className="flex flex-col md:flex-row">
+                <span className="text-4xl font-bold w-full md:w-[12ch]">
+                  G.T. DÍPÈ:
+                </span>
+                <div className="text-center md:text-left w-full">
+                  <h1 className="text-4xl font-bold mb-4">
+                    Writing love stories that hold both the beauty and the
+                    bravery of real life.
+                  </h1>
+                  <p className="text-lg mb-6 italic">
+                    For hearts that find strength in both love and reality…
+                  </p>
+                </div>
+              </div>
               <button
                 onClick={handleGetStarted}
                 className="bg-primary-900 hover:bg-primary-800 text-white px-6 py-3"
@@ -47,13 +54,13 @@ export default function RootLayout() {
               <form action="" className="flex flex-col gap-6">
                 <input
                   type="name"
-                  placeholder="Email"
-                  className="p-2 bg-transparent border-2 outline-0 caret-slate-400 text-slate-600"
+                  placeholder="Name"
+                  className="p-2 bg-transparent border-2 outline-0 caret-slate-400 text-primary-900"
                 />
                 <input
                   type="email"
                   placeholder="Email"
-                  className="p-2 bg-transparent border-2 outline-0 caret-slate-400 text-slate-600"
+                  className="p-2 bg-transparent border-2 outline-0 caret-slate-400 text-primary-900"
                 />
                 <button className=" font-semibold bg-primary-900 hover:bg-primary-800 border-2 border-[#956B73] text-white py-3 w-full px-6  transition-all ease-in-out">
                   SUBSCRIBE
