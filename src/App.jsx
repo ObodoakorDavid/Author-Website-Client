@@ -5,6 +5,7 @@ import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
 import Books from "./pages/Books/Books";
 import Contact from "./pages/Contact/Contact";
+import Games from "./pages/Games/Games";
 
 export default function App() {
   const router = createBrowserRouter([
@@ -26,6 +27,10 @@ export default function App() {
         {
           path: "/contact",
           element: <Contact />,
+        },
+        {
+          path: "/games",
+          element: <Games />,
         },
       ],
     },

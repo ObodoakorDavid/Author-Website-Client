@@ -4,6 +4,7 @@ import Book1 from "../../assets/images/Runnin’ no more  front (1).png";
 export default function Books() {
   const books = [
     {
+      id: 1,
       title: "RUNNIN’ NO MORE",
       price: 199,
       summary:
@@ -53,7 +54,7 @@ export default function Books() {
       <div className=" grid gap-5 justify-center text-left py-8">
         {books.slice(0, 7).map((book) => {
           return (
-            <div className="flex flex-col gap-2">
+            <div key={book.id} className="flex flex-col gap-2">
               <img
                 src={book.image}
                 alt="book image"

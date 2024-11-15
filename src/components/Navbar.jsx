@@ -61,6 +61,12 @@ export default function Navbar() {
           <span className="absolute bottom-0 left-1/2 w-0 h-0.5 bg-black transition-all duration-300 ease-in-out transform -translate-x-1/2 group-hover:w-full"></span>
         </li>
         <li className="relative group">
+          <Link to="/games" className="font-semibold">
+            Games
+          </Link>
+          <span className="absolute bottom-0 left-1/2 w-0 h-0.5 bg-black transition-all duration-300 ease-in-out transform -translate-x-1/2 group-hover:w-full"></span>
+        </li>
+        <li className="relative group">
           <Link to="/contact" className="font-semibold">
             Contact Me
           </Link>
